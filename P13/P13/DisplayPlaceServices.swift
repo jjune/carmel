@@ -52,7 +52,7 @@ class DisplayPlaceServices: UITableViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         
-        if segue.identifier == "DisplayWebsiteRedirector" {
+        if segue.identifier == "DisplayWebsiteRedirector"  {
             
             let destinationController = segue.destinationViewController as! WebsiteViewController
             if let indexPath = self.tableView.indexPathForSelectedRow?.row {
